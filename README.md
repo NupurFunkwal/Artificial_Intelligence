@@ -1,2 +1,4 @@
-8Queens and TSP problem solution using improved Genetic Alogrithm for better performance. The explanation for the approaches followed has been discussed in the "8Queens+TSP" pdf.
+###Solved AI Problems
 
+####Genetic Algorithms
+Genetic algorithms are based on the ideas of natural selection and genetics. These are intelligent exploitation of random search provided with historical data to direct the search into the region of better performance in solution space. They are commonly used to generate high-quality solutions for optimization problems and search problems. The folder contains solutions for improved versions of genetic algorithm for 8Queens and TSP.
