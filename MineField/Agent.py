@@ -9,8 +9,7 @@ class Agent:
                  ['M','','M',''], # Rooms [1,3] to [4,3]
                  ['','M','',''], # Rooms [1,2] to [4,2] 
                  ['','','',''],  # Rooms [1,1] to [4,1]
-                ] # This is the mine field world shown in the assignment question.
-                  # A different instance of the mine field world will be used for evaluation.
+                ] 
         self._curLoc = [1,1]
         self._isAlive = True
         self._hasExited = False
@@ -95,28 +94,3 @@ class Agent:
     
     def FindCurrentLocation(self):
         return self._curLoc
-
-# def main():
-#     ag = Agent()
-#     print('curLoc',ag.FindCurrentLocation())
-#     print('Percept ',ag.PerceiveCurrentLocation())
-#     ag.TakeAction('Right')
-#     print('Percept',ag.PerceiveCurrentLocation())
-#     ag.TakeAction('Left')
-#     print('Percept',ag.PerceiveCurrentLocation())
-#     ag.TakeAction('Up')
-#     print('Percept',ag.PerceiveCurrentLocation())
-#     ag.TakeAction('Up')
-#     print('Percept',ag.PerceiveCurrentLocation())
-#     ag.TakeAction('Up')
-#     print('Percept',ag.PerceiveCurrentLocation())
-#     ag.TakeAction('Right')
-#     print('Percept',ag.PerceiveCurrentLocation())
-#     ag.TakeAction('Right')
-#     print('Percept',ag.PerceiveCurrentLocation())
-#     ag.TakeAction('Right')
-#     print('Percept',ag.PerceiveCurrentLocation())
-
-
-# if __name__=='__main__':
-#     main()  
