@@ -12,8 +12,6 @@ from collections import deque
 
 #!/usr/bin/env python3
 
-#### All your code can go here.
-
 safe = []       #contains those co-ords which are visited or have no mine
 safe.append([3,0])  #starting position
 unvisited = []  #unvisited neighbours
@@ -342,8 +340,6 @@ def hybrid_agent():
     #matrix gets modified in the func itself
     Plan_route(ag, matrix, goals)
 
-
-#### You can change the main function as you wish. Run this program to see the output. Also see Agent.py code.
 
 def main():
   hybrid_agent()
